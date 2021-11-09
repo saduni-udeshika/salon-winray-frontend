@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #3f50b5;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+    margin-top: 1%;
+}

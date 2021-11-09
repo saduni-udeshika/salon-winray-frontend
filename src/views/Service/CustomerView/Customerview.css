@@ -1,0 +1,123 @@
+.serviceHeader{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 12px solid #ddd;
+}
+.serviceHeader .logo{
+    flex: 6;
+}
+.serviceHeader a{
+    text-transform: uppercase;
+    color: #555;
+}
+.serviceHeader ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 80px;
+    
+}
+.serviceHeader ul li:hover{
+    opacity: 1;
+}
+.menu{
+    display: none;
+}
+.filter-menu{
+   
+    min-height: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.filter-menu input{
+    flex: 1;
+    margin: 0 10px;
+}
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.productcard{  
+    max-height: 351px;
+    width: 200px;
+    background: #d6d7db;
+    border-radius: 15px;
+    position:static;
+    border: none;
+    overflow: hidden;
+    box-shadow:0px 24px 48px 0 rgba(0,0,0,0.1);
+}
+.productcard .imgBx{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.productcard  .productbtn{
+   font-size: 11px;
+   padding: 5px 10px;
+    margin-top: 15px;
+    color:white;
+    border: none;
+    border-radius: 90px;
+}
+.productcard .viewbtn{
+    font-size: 15px;
+   padding: 5px 10px;
+    margin-top: 15px;
+    color:white;
+    border: none;
+    border-radius: 90px;
+}
+.productcard .viewbookbtn{
+    font-size: 12px;
+    padding: 8px 10px;
+     margin-top: 15px;
+     color:rgb(240, 230, 230);
+     border: none;
+     border-radius: 90px;
+}
+.productGrid{
+    display: grid;
+    grid-gap: 3rem;
+    padding: 1rem;
+    max-width: 1150px;
+    margin: 0 auto;
+
+}
+
+
+@media (min-width: 600px) {
+    .productGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 800px) {
+    .productGrid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

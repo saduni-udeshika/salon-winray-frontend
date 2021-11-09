@@ -1,0 +1,12 @@
+.cal-container {
+    border-radius: 10px;
+    background-color: cadetblue;
+    padding: 10px;
+    width: 600px;
+    height: 450px;
+    margin: 8% 8% 0 10%;
+  }
+  .add-cal{
+  margin: 2%;
+  height: 500px;
+  }

@@ -1,0 +1,18 @@
+.loginContainer{
+    margin-top: 12%;
+    width: 300px;
+    height: 100vh;
+    border: rgb(226, 226, 238) solid;
+}
+.headingLogin{
+    margin-top: 20px;
+    color: royalblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.loginInput{
+    margin: 1% 15%;
+}
+.loginBtn{
+    margin: 4% 15%;;
+}

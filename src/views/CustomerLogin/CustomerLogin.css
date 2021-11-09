@@ -1,0 +1,44 @@
+.welcomePicture{
+    height:100vh;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(175, 250, 255);
+    width: 100%;
+    background-size:cover;
+    margin: 5% 0% 0% 5%;
+    padding: 2% 0% 0% 2%; 
+}
+
+.loginContainer{
+    margin: auto;
+    margin-top: 2%;
+    width: 550px;
+    height: 500px;
+    border: rgb(148, 224, 224) solid;
+    border-radius: 1%;
+    background-color: rgb(148, 224, 224);
+    
+}
+.headingLogin{
+    margin-top: 20px;
+    color: royalblue;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.loginBtn{
+    margin: 4% 15%;
+}
+.signinBtn{
+background-color: aqua;
+}
+#signin{
+    color: rgb(240, 245, 245);
+    background-color: black;
+}
+#login{
+    color: black;
+    background-color: blanchedalmond;
+}
+.inputLogin{
+    padding: 0 0 0 12%;
+}

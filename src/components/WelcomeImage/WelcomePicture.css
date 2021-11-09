@@ -1,0 +1,9 @@
+.welcomePicture{
+    height:60vh;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(175, 250, 255);
+    width: 45%;
+    background-size:cover;
+    margin: 5% 0% 0% 5%;
+    padding: 2% 0% 0% 2%;
+}

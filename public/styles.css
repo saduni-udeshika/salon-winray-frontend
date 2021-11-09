@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    height: 100%;
+}
+
+#root{
+    min-height: 180vh;
+    background-image:  linear-gradient(rgba(2, 2, 2, 0.2),rgba(0, 0, 0, 0.2)),url(./image/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+}
+
+.welcomePicture{
+    background-image: url(./image/welcomeScreenImage.jpg);
+    height:60vh;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(175, 250, 255);
+    width: 45%;
+    background-size:cover;
+    margin: 5% 0% 0% 5%;
+    padding: 2% 0% 0% 2%;
+}

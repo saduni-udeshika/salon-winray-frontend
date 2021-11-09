@@ -1,0 +1,18 @@
+.updateService {
+    position: absolute;
+    width: 60%;
+    padding: 30px;
+    background: rgb(176, 176, 207);
+    border-radius: 15px;
+    margin-left: 10%;
+    box-shadow:0px 20px 48px 0 rgba(0,0,0,0.1);
+}
+
+.updatepreviewImgservice {
+    border-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    max-width: 250px;
+    margin-bottom: 20px;
+}

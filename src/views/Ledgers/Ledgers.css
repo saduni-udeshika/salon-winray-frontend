@@ -1,0 +1,20 @@
+.ledgerBody{
+    margin: 6% 8% 0 10%;
+}
+.search-form{
+    width: 20rem;
+}
+
+.searchLedger{
+    margin: 1.5% 0;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+}
+.ledgerButton{
+    border-radius: 50%;
+    padding: 0.1rem;
+}
+#deleteNote{
+    border-color: rgb(255, 255, 255);
+}

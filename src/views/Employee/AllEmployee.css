@@ -1,0 +1,33 @@
+.mye-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 1200px;
+  height: 80px;
+  border: 1px solid rgb(126, 119, 119);
+  background-color: #f8f1f1;
+  border-radius:  4px;
+}
+
+.mye-th {
+  text-align: center;
+  padding: 20px;
+  background-color: cadetblue;
+  border: 1px solid rgb(126, 119, 119);
+}
+
+.mye-td {
+  border: 1px solid rgb(126, 119, 119);
+  text-align: center;
+}
+
+
+
+.searche{
+  margin: 2.5% 10px ;
+
+}
+
+.allemployee{
+  margin: 8% 8% 0 10%;
+}
+

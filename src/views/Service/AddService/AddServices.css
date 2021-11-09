@@ -1,0 +1,44 @@
+.addService {
+    position: absolute;
+    width: 60%;
+    padding: 30px;
+    background: rgb(156, 156, 252);
+    border-radius: 15px;
+    margin-left: 10%;
+    box-shadow:0px 20px 48px 0 rgba(0,0,0,0.1);
+}
+
+.previewImgservice {
+    border-radius: 10px;
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.serviceHeader{
+    min-height: 50px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-end;
+    border-bottom: 10px solid #ddd;
+}
+.serviceHeader .logo{
+    flex: 6;
+}
+.serviceHeader a{
+    text-transform: uppercase;
+    color: #555;
+}
+.serviceHeader ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 80px;
+}
+.serviceHeader ul li:hover{
+    opacity: 1;
+}
